@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 450px;
+    background: #050A30;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon{
+    font-size: 45px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+
+#celcius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+/* for chrome, edge, opera, safari */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+/* for mozila firefox */
+
+/* input{
+    -moz-appearance: textfield;
+} */
+
+
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #7EC8E3;
+    color: black;
+    border-radius: 0 8px 8px 0;
+}
+
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background:#90c8da ;
+    color: #0C2D48;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#020d45 ;
+    background: linear-gradient(90deg, rgb(219, 47, 142) 0%, rgb(181, 88, 224) 100%);
+    color: #222;
+    font-size: 1rem;
+}
+
+.temperature-converter{
+    background: #fff;
+    width: 100%;
+    min-width: 320px;
+    padding:20px 25px 45px;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -5px -5px 250px 0 rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(21px);
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title{
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.result-heading{
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.celcius-value{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease ;
+}
+
+.degree-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+label{
+    color: #555;
+    font-size: .8rem;
+    margin-bottom: 5px;
+}
+
+input, select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    border: 1px solid #bd25f0;
+}
+
+option{
+    background: #3c39e7;
+    color: #f6f6f6;
+}
+
+#convert-btn{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #2ecae6, #0f65b0);
+    color: #f6f6f6;
+    padding: 12px 80px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: all .3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#convert-btn-hover{
+    background: linear-gradient(to bottom, #FE938C, #DB5375);
+}
+
+.fa{
+    margin-left: -12px;
+    margin-right: 8px;
+} */
